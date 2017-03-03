@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6FF10C1E697A6200DE1B88 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FF10B1E697A6200DE1B88 /* ViewControllerA.m */; };
+		8C6FF10F1E697A7000DE1B88 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FF10E1E697A7000DE1B88 /* ViewControllerB.m */; };
 		8CD2D6D11DE1EB2F00883D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6D01DE1EB2F00883D60 /* main.m */; };
 		8CD2D6D41DE1EB2F00883D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6D31DE1EB2F00883D60 /* AppDelegate.m */; };
 		8CD2D6D71DE1EB2F00883D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2D6D61DE1EB2F00883D60 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6FF10A1E697A6200DE1B88 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		8C6FF10B1E697A6200DE1B88 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		8C6FF10D1E697A7000DE1B88 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		8C6FF10E1E697A7000DE1B88 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		8CD2D6CC1DE1EB2F00883D60 /* UIVCSwitchByCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVCSwitchByCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2D6D01DE1EB2F00883D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CD2D6D21DE1EB2F00883D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				8CD2D6D31DE1EB2F00883D60 /* AppDelegate.m */,
 				8CD2D6D51DE1EB2F00883D60 /* ViewController.h */,
 				8CD2D6D61DE1EB2F00883D60 /* ViewController.m */,
+				8C6FF10A1E697A6200DE1B88 /* ViewControllerA.h */,
+				8C6FF10B1E697A6200DE1B88 /* ViewControllerA.m */,
+				8C6FF10D1E697A7000DE1B88 /* ViewControllerB.h */,
+				8C6FF10E1E697A7000DE1B88 /* ViewControllerB.m */,
 				8CD2D6D81DE1EB2F00883D60 /* Main.storyboard */,
 				8CD2D6DB1DE1EB2F00883D60 /* Assets.xcassets */,
 				8CD2D6DD1DE1EB2F00883D60 /* LaunchScreen.storyboard */,
@@ -276,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C6FF10C1E697A6200DE1B88 /* ViewControllerA.m in Sources */,
 				8CD2D6D71DE1EB2F00883D60 /* ViewController.m in Sources */,
 				8CD2D6D41DE1EB2F00883D60 /* AppDelegate.m in Sources */,
 				8CD2D6D11DE1EB2F00883D60 /* main.m in Sources */,
+				8C6FF10F1E697A7000DE1B88 /* ViewControllerB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +439,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UIVCSwitchByCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UIVCSwitchByCode;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,9 +453,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VCBJ7R8EST;
 				INFOPLIST_FILE = UIVCSwitchByCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.UIVCSwitchByCode;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangming.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +530,7 @@
 				8CD2D6FB1DE1EB3000883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD2D6FC1DE1EB3000883D60 /* Build configuration list for PBXNativeTarget "UIVCSwitchByCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				8CD2D6FE1DE1EB3000883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CD2D6FF1DE1EB3000883D60 /* Build configuration list for PBXNativeTarget "UIVCSwitchByCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				8CD2D7011DE1EB3000883D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
